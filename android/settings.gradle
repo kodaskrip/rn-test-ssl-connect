@@ -1,0 +1,3 @@
+rootProject.name = 'sslexample'
+
+include ':app'
