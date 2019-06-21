@@ -68,7 +68,9 @@ export default class App extends Component {
           });
         }
       })
-      .then(console.log);
+      .catch(err => {
+        alert(err);
+      });
 
     // fetch('https://api-dev-1.daya-dms.id/idp/user.auth', {
     //   method: 'POST',
